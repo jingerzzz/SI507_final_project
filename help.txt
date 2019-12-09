@@ -1,0 +1,51 @@
+
+Commands available:
+
+filters
+	Description: Select records according to filtering conditions you define
+
+	Options:
+		* salary
+			value: <your input>
+		Description: Specifies a value of salary which is the between the salary 
+		interval of the companies you will select.
+	
+		* founded year
+			value: <your input>
+		Description: Specifies a value of year after which the companies were founded
+
+		* industry
+			value: <your input>
+		Description: Specifies a industry the companies you will select are in.
+
+		* type
+			value: <your input>
+		Description: Specifies a value of type the companies you will select belong to.
+
+		* sector
+			value: <your input>
+		Description: Specifies a sector the companies you will select are in.
+
+graphs
+	Description: plot the graphs of job distribution over different attributes, sorted in 
+	descending order.
+
+	Options:
+		* 1
+		Description: plot the graphs of job distribution over companies, sorted in 
+		descending order.
+
+		* 2
+		Description: plot the graphs of job distribution over industries, sorted in 
+		descending order.
+
+		* 3
+		Description: plot the graphs of job distribution over types, sorted in 
+		descending order.
+
+help
+	Description: show the tutorial.
+
+exit
+	Description: exit the program.
+	
